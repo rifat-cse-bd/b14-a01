@@ -157,3 +157,115 @@ nav div a{
     color: #575757;
 
 }
+
+/* Pricing Section Style */
+
+#pricing-section{
+    font-family: 'Inter';
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#pricing-header{
+   display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+#pricing{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Inter';
+    
+}
+
+.card {
+    min-width: 0;      
+    width: 100%;        
+    box-sizing: border-box;
+}
+
+
+.card-body ul{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.card-body ul li{
+      margin: 10px 0;       
+      font-size: 13px;
+}
+
+.card-body ul li::marker {
+    color: #2563eb;       
+}
+
+
+
+.dollar{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-btn{
+    margin-left: 10px;
+
+    width: 93%;
+    height: 45px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+#btn1{
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    background-color: white;
+    font-weight: bold;
+}
+
+#btn2{
+    color: white;
+    background-color: #2563eb;
+    font-weight: bold;
+}
+
+#btn3{
+    color: #0d1b2a;
+    background-color: white;
+    font-weight: bold;
+    border: 1px solid #0d1b2a;
+
+}
+
+
+hr {
+    border: none;           
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#hr1{
+    border: none;           
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
