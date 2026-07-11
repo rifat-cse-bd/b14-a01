@@ -100,3 +100,60 @@ nav div a{
 }
 
 
+/* Speaker Section Style */
+#speakers-section{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    font-family: 'Inter';
+}
+
+#speakers{
+    /* background-color: red; */
+    display: grid;
+    width: 80%;
+   
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+#speakers div{
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+}
+
+
+#speakers div img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.speaker-interest{
+    color:#2563eb;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.speaker-name{
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.speaker-company{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: 11px;
+    color: #575757;
+
+}
