@@ -269,3 +269,30 @@ hr {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.15);
 }
+
+/* Footer Section Styles */
+
+#footer{
+    background-color: #0D1B2A;
+    height: 200px;
+    max-width: 1200px;
+    font-family: 'Inter';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8B8B8B;
+}
+
+#footer-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-right a{
+    text-decoration: none;
+    color: #8B8B8B;
+    font-family: 'Inter';
+
+}
+
